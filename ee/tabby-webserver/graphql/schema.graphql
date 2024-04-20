@@ -310,7 +310,7 @@ type OAuthCredential {
 type CompletionStats {
   start: DateTimeUtc!
   end: DateTimeUtc!
-  language: String!
+  language: Language!
   completions: Int!
   selects: Int!
 }
